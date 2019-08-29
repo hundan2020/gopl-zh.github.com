@@ -2,7 +2,7 @@
 cls
 setlocal EnableDelayedExpansion
 rem gitbook install
-rem &^ æ‰¹å¤„ç†è¿è¡Œgitbookä¼šä¸­æ–­å‘½ä»¤ æ‰€ä»¥ç”¨&é“¾æ¥,ç”¨^å¤„ç†æ¢è¡Œ
+rem &^ Åú´¦ÀíÔËĞĞgitbook»áÖĞ¶ÏÃüÁî ËùÒÔÓÃ&Á´½Ó,ÓÃ^´¦Àí»»ĞĞ
 go run update_version.go
 gitbook build &^
 go run fix-data-revision.go &^
